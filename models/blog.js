@@ -2,12 +2,11 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
  
 const blogSchema = new Schema({
-    
-    testo:{
+    title:{
         type: String,
-        required: true   
+        required: true
     },
-    body:{
+    testo:{
         type: String,
         required: true   
     }
