@@ -4,7 +4,6 @@
 <body>
     <%- include('./partials/nav.ejs') %> 
     <% const name ='mario' %> 
-    <p><%= name //stampo il nome %>  </p>
     <div class="blogs content">
         <h2>All Blogs</h2>
         
@@ -12,7 +11,7 @@
 
            <% blogs.forEach(blog => { %>
              
-            <h3 class="title"> <%= blog.title %> </h3>
+            <h5 class="title"> <%= blog.title %> </h3>
             <p class="testo">  <%= blog.testo %>   </p>
             <p></p>
 
